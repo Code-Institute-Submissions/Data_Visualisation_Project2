@@ -1,0 +1,12 @@
+#country-selector{
+  display: inline;
+  margin-left: 15px;
+}
+
+.jumbotron{
+  margin-top: 50px;
+}
+
+#status_balance_pie{
+  height: 350px;
+}

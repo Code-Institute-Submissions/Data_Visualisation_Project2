@@ -134,11 +134,15 @@ function show_average_life_expectancy(ndx){
 
 function show_average_mortality_ofAdults(ndx) {
 
-  var color_country = d3.scale.ordinal()
+  var color_status = d3.scale.ordinal()
   .domain(["Developed", "Developing"])
   .range(["red", "black"]);
 
   var mortalityDim = ndx.dimension(dc.pluck("Status"));
+
+  var mort_status = ndx.dimension(function (d) {
+    return [d.Status, d.LifeExpectancy];
+  });
   var percentage_adultDeath = mortalityDim.group().reduce(
     function (p, v) {
       p.count++;
@@ -165,7 +169,10 @@ function show_average_mortality_ofAdults(ndx) {
   dc.barChart("#average_adult_mortality")
     .width(350)
     .height(350)
-    .colors(color_country)
+    .colors(color_status)
+    .colorAccessor(function(d) {
+      return d.key[1];
+    })
     .margins({ top: 10, right: 50, bottom: 30, left: 50})
     .dimension(mortalityDim)
     .group(percentage_adultDeath)

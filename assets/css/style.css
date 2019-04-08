@@ -5,13 +5,15 @@
 
 .jumbotron{
   margin-top: 50px;
+  /*background-color: #f8f5f0;*/
+  background-color: #158CBA;
 }
 
 #status_balance_pie{
   height: 350px;
 }
 
-#average_life_expectancy rect:nth-child(odd),
+/*#average_life_expectancy rect:nth-child(odd),
 #average_adult_mortality rect:nth-child(odd) {
 
   fill: aquamarine;
@@ -24,8 +26,24 @@
   fill: blanchedalmond;
   stroke: peachpuff;
 }
+*/
+.display-4 {
+  font-weight: 400;
+  color: white;
+}
 
+a:not([href]):not([tabindex]) {
+  color: white;
+  text-decoration: none;
+}
 
+.lead {
+  color: white;
+}
+
+body {
+  background-color:lightblue;
+}
 
 
 

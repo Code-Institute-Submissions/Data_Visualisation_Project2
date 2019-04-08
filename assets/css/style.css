@@ -10,3 +10,23 @@
 #status_balance_pie{
   height: 350px;
 }
+
+#average_life_expectancy rect:nth-child(odd),
+#average_adult_mortality rect:nth-child(odd) {
+
+  fill: aquamarine;
+  stroke: aliceblue;
+}
+
+#average_life_expectancy rect:nth-child(even),
+#average_adult_mortality rect:nth-child(even) {
+
+  fill: blanchedalmond;
+  stroke: peachpuff;
+}
+
+
+
+
+
+

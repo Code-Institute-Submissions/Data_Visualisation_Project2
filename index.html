@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,71 +8,79 @@
   <title>Countries Life Expectancy</title>
   <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.css" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css" />
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand">Life Expectancy in Developed and Developing Countries</a>
-    </nav>
-    <main>
-      <div class="container">
-        <section>
-          <div class="jumbotron">
-            <h2 class="display-4 text-center">Developed and Developing Countries Life Expectancy Correlation</h2>
-            <hr class="my-4">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12">
-                <p class="lead">
-                  This dashboard uses World Health Organisation data from 2015. The data is used to explore correlations between developed and devoloping countries and whether their gross national income per capita corrolates with life expectancy.
-                </p>  
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12">
-              </div>
-              <div id="country-selector" class="lead">Country Selector</div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 text-center" id="status_balance_pie"></div>
-              <div class="col-xs-12 col-sm-4 text-center" id="average_life_expectancy">
-              </div>
-              <div class="col-xs-12 col-sm-4 text-center" id="average_adult_mortality">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-4 text-center">
-                <p class="section-paragraph"> 1 in 4 are developed countries</p>
-              </div>
-              <div class="col-xs-12 col-sm-4 text-center">
-                <p class="section-paragraph">iterate what you see in the above chart</p>
-              </div>
-              <div class="col-xs-12 col-sm-4 text-center">
-                <p class="secion-paragraph">same, Iteration</p>
-              </div>
-            </div>
-            <hr>
-            <hr>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 text-center">
-                <h4>There is a strong correlation between gross nation income (GNI) per capita based on purchasing power parity (PPP) and life expectancy.
-                </h4>
-              </div>  
-              <div class="col-xs-12 col-sm-12 text-center" id="gdp_lifeExpectancy"></div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
-    <script type="text/javascript" src="assets/js/graph.js"></script>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand">World Health Organisation Country Data 2015</a>
+  </nav>
+  <main>
+    <div class="container">
+      <section>
+        <div class="jumbotron">
+          <h2 class="display-4 text-center">Developed and Developing Countries Life Expectancy Correlation</h2>
+          <hr class="my-4">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+              <p class="lead">
+                This dashboard uses World Health Organisation data from 2015. The data is used to explore the health
+                status as well as many other related factors for all countries.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12">
+            </div>
+            <div id="country-selector" class="lead">Country Selector</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 text-center" id="status_balance_pie"></div>
+            <div class="col-xs-12 col-sm-4 text-center" id="average_life_expectancy">
+            </div>
+            <div class="col-xs-12 col-sm-4 text-center" id="average_adult_mortality">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 text-center">
+              <p class="section-paragraph"> 1 in 4 are developed countries</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 text-center">
+              <p class="section-paragraph">A Developed Country has better health to that of a Developing Country. You
+                are likely to live over 10 yrs longer.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 text-center">
+              <p class="secion-paragraph">This graph shows Adult Mortality Rates of both sexes (probability of dying
+                between 15 and 60 years per 1000 population). There is approxiametely over 95 more per 1000 likely to
+                die in this age bracket in the Developing World to that of a Developed World</p>
+            </div>
+          </div>
+          <hr>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 text-center">
+              <h4>There is a strong correlation between your life expectancy and schooling. It suggests a longer
+                education will likely lead to a longer healthier life. It also shows that the developed world invests a
+                lot more in education resulting indirectly to a longer life.
+              </h4>
+            </div>
+            <div class="col-xs-12 col-sm-12 text-center" id="gdp_lifeExpectancy"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+  <script type="text/javascript" src="assets/js/graph.js"></script>
 </body>
+
 </html>

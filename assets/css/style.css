@@ -4,29 +4,27 @@
 }
 
 .jumbotron{
-  margin-top: 50px;
+  margin-top: 30px;
   /*background-color: #f8f5f0;*/
   background-color: #158CBA;
+  /*background-color: #ecf0f1;*/
 }
 
 #status_balance_pie{
   height: 350px;
 }
 
-/*#average_life_expectancy rect:nth-child(odd),
+#average_life_expectancy rect:nth-child(odd),
 #average_adult_mortality rect:nth-child(odd) {
-
-  fill: aquamarine;
-  stroke: aliceblue;
+    fill: #158CBA;
+    stroke: rgb(204, 204, 204);
 }
 
 #average_life_expectancy rect:nth-child(even),
 #average_adult_mortality rect:nth-child(even) {
-
-  fill: blanchedalmond;
-  stroke: peachpuff;
+    fill: #07c98fb0;
+    stroke: rgb(204, 204, 204);
 }
-*/
 .display-4 {
   font-weight: 400;
   color: white;
@@ -39,11 +37,36 @@ a:not([href]):not([tabindex]) {
 
 .lead {
   color: white;
+  font-size: 1.69375rem;
 }
 
 body {
-  background-color:lightblue;
+  /*background-color:lightblue;*/
+  background-color: #c3d9e0;
+  color: #000000;
 }
+
+text.x-axis-label { 
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+
+text.y-axis-label { 
+  font-size: 1.2em; 
+}
+
+.navbar-brand {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+
+
+
+
+
+
+
 
 
 

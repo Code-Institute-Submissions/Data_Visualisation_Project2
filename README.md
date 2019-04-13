@@ -63,13 +63,13 @@ Github Pages: ()
 
 Local deployment is not required for this project.
 
-##Credits
+## Credits
 ----------
 
-###Content
+### Content
 
 The World Health Organisation Country Data and text content was copied/ammended from the following site:
-  + [Kagge](https://www.kaggle.com/kumarajarshi/life-expectancy-who)
+  + [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who)
 
 
 

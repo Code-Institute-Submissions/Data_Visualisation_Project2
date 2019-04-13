@@ -1,5 +1,5 @@
 # Life Expectancy (WHO)
---
+-----
 
 #### Milestone project - Interactive Frontend Development
 ------

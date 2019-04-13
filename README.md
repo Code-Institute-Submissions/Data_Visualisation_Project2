@@ -39,15 +39,53 @@ I may add a line graph in future to display the correlation if any on Total Expe
 + [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/)
   + Used to construct the basic site structure.
 + [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-- Provides styling for the page and all content.
+  + Provides styling for the page and all content.
 + [Bootswatch](https://bootswatch.com/)
-+ [Font_Awesome(4.7.0)](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)]
+  + It provides themes to websites
+<!-- + [Font_Awesome(4.7.0)](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)]
+  +  -->
 + [JavaScript](https://www.javascript.com/)
-[D3.js](https://d3js.org/)
-- Visualisation framework for rendering all animations and the backbone of the Dashboard charts.
-[Dimensional Charting(Dc.js)](https://github.com/dc-js/dc.js)
-- Library using D3.js to create charts that allow highly efficient exploration on large, multi-dimensional datasets.
-[queue](https://github.com/d3/d3-queue)
+  + Enables the vast majority of site interactivity
++ [D3.js](https://d3js.org/)
+  + Visualisation framework for rendering all animations and the backbone of the Dashboard charts.
++ [Dimensional Charting(Dc.js)](https://github.com/dc-js/dc.js)
+  + Library using D3.js to create charts that allow highly efficient exploration on large, multi-dimensional datasets.
+
+## Deployment
+
+Deployment and source control was entirely done via Github. The repository can be found here:
+Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
+
+The site has been deployed using GitHub Pages and is available to visit here:
+Github Pages: ()
+
+Local deployment is not required for this project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

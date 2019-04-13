@@ -18,6 +18,58 @@ Objectives:
 
 Before i started this project, which is fundamental for any project you do, is construct a wireframe to have a direction to go at in building this data visualisation. Click here for my wireframe.
 
+## Features
+
+The project has 5 parts to it and in those 5 parts it allows user participation:
+
+- I have added a select menu. Hear you can leave it as it is and have a visualisation of Developed and Developing countries (which i will refer to on this page as "Status")collectively, or you can scroll down the select menu with a multiple amount of countries you can choose from with data output as per described on the y and x axis
+- The pie chart displays the categorised country status, if you press either one as its crossfiltered you will see the changes in the other visualisations (bar chart, scatter plot). Also as all the visualisation is crossfiltered if you select any country in the select menu it will display in the bar chart what status that country is categorised as.
+- The first bar chart displays life expectancy for either any country that is displayed in the select menu or colectively (status)
+- Second bar chart displays adult mortality per 1000
+- The scatter plot displays a correlation of education and how long you live. The circle dots are colored to represent what status they are and the name of the country is displayed when you hover over any dot
+
+### Features Left To Implement
+
+I may add a line graph in future to display the correlation if any on Total Expenditure on health as a % to overall spending to that of the amount of Aids in that country.
+
+## Technologies Used
+
++ [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/)
+- Used to construct the basic site structure.
++ [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- Provides styling for the page and all content.
++ [Bootswatch](https://bootswatch.com/)
++ [Font_Awesome(4.7.0)](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)]
++ [JavaScript](https://www.javascript.com/)
+[D3.js](https://d3js.org/)
+- Visualisation framework for rendering all animations and the backbone of the Dashboard charts.
+[Dimensional Charting(Dc.js)](https://github.com/dc-js/dc.js)
+- Library using D3.js to create charts that allow highly efficient exploration on large, multi-dimensional datasets.
+[queue](https://github.com/d3/d3-queue)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -62,7 +62,6 @@ Github Pages: ()
 Local deployment is not required for this project.
 
 ## Credits
-----------
 
 ### Content
 

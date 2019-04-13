@@ -68,8 +68,30 @@ Local deployment is not required for this project.
 
 ### Content
 
-The World Health Organisation Country Data and text content was copied/ammended from the following site:
+The World Health Organisation Country Data and text content was copied/amended from the following site:
   + [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who)
+
+### Media
+
+  No media/photos are used on this site
+
+### Acknowledgements
+
+I received inspiration for this project from the video tutorials that Code Institute provided in introducing me to data visualisation. 
+I also did extra reading before attempting this project on d3.js through a uldemy course provided by Luis Ramirez Jr. 
+Finally to my mentor for his guidance through the project.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

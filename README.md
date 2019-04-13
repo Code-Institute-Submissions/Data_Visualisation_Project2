@@ -64,7 +64,7 @@ Local deployment is not required for this project.
 ## Credits
 ----------
 
-## Content
+### Content
 
 The World Health Organisation Country Data and text content was copied/amended from the following site:
   + [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who)

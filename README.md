@@ -54,9 +54,11 @@ I may add a line graph in future to display the correlation if any on Total Expe
 ## Deployment
 
 Deployment and source control was entirely done via Github. The repository can be found here:
+
 Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
 
 The site has been deployed using GitHub Pages and is available to visit here:
+
 Github Pages: ()
 
 Local deployment is not required for this project.

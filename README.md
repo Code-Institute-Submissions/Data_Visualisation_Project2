@@ -77,11 +77,11 @@ The World Health Organisation Country Data and text content was copied/amended f
 
 ### Acknowledgements
 
-I received inspiration for this project from the video tutorials that Code Institute provided in data visualisation.
+I received inspiration for this project from the video tutorials that **Code Institute** provided in data visualisation.
 
-I also did extra reading before attempting this project on d3.js through a uldemy course provided by Luis Ramirez Jr. 
+I also did extra reading before attempting this project on d3.js through a uldemy course provided by **Luis Ramirez Jr**. 
 
-Finally to my mentor for his guidance through the project.
+Finally to my **mentor** for his guidance through the project.
 
 
 

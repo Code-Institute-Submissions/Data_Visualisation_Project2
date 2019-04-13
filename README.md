@@ -1,7 +1,7 @@
 # Life Expectancy (WHO)
 -----
 
-### Milestone project - Interactive Frontend Development
+### Milestone Project 2: Interactive Frontend Development
 
 
 In this project i used data from The World Health Board which was open sourced from the website [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who). The data which is collected from the year 2015 measures different factors to quantify the different levels of the standard of living. Ive categorised it so that i can illustrate to the audience by visualisation a comparision of 2 representations. **Developed** Countries and **Developing** Countries.
@@ -42,8 +42,6 @@ I may add a line graph in future to display the correlation if any on Total Expe
   + Provides styling for the page and all content.
 + [Bootswatch](https://bootswatch.com/)
   + It provides themes to websites
-<!-- + [Font_Awesome(4.7.0)](https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)]
-  +  -->
 + [JavaScript](https://www.javascript.com/)
   + Enables the vast majority of site interactivity
 + [D3.js](https://d3js.org/)
@@ -66,7 +64,7 @@ Local deployment is not required for this project.
 ## Credits
 ----------
 
-### Content
+## Content
 
 The World Health Organisation Country Data and text content was copied/amended from the following site:
   + [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who)
@@ -81,84 +79,7 @@ I received inspiration for this project from the video tutorials that **Code Ins
 
 I also did extra reading before attempting this project on d3.js through a uldemy course provided by **Luis Ramirez Jr**. 
 
-Finally to my **mentor** for his guidance through the project.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Finally to my **Mentor** for his guidance through the project.
 
 
 

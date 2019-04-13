@@ -35,7 +35,7 @@ I may add a line graph in future to display the correlation if any on Total Expe
 ## Technologies Used
 
 + [HTML5](https://www.w3.org/TR/2017/REC-html52-20171214/)
-- Used to construct the basic site structure.
+++ Used to construct the basic site structure.
 + [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - Provides styling for the page and all content.
 + [Bootswatch](https://bootswatch.com/)

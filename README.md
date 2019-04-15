@@ -57,7 +57,7 @@ Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
 
 The site has been deployed using GitHub Pages and is available to visit here:
 
-[Github Pages:](https://aledgriffiths79.github.io/data_visualisation_trial/)
+[Project Website](https://aledgriffiths79.github.io/data_visualisation_trial/)
 
 Local deployment is not required for this project.
 

@@ -4,7 +4,7 @@
 ### Milestone Project 2: Interactive Frontend Development
 
 
-In this project i used data from The World Health Board which was open sourced from the website [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who). The data which is collected from the year 2015 measures different factors to quantify the different levels of the standard of living. Ive categorised it so that i can illustrate to the audience by visualisation a comparision of 2 representations. **Developed** Countries and **Developing** Countries.
+In this project i used data from The World Health Board which was open sourced from the website [Kaggle](https://www.kaggle.com/kumarajarshi/life-expectancy-who). The data which is collected from the year 2015 measures different factors to quantify the different levels of the standard of living. I've categorised it so that i can illustrate to the audience by visualisation a comparision of 2 representations. **Developed** Countries and **Developing** Countries.
 
 ## UX
 
@@ -57,7 +57,7 @@ Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
 
 The site has been deployed using GitHub Pages and is available to visit here:
 
-Github Pages: ()
+[Github Pages:](https://aledgriffiths79.github.io/data_visualisation_trial/)
 
 Local deployment is not required for this project.
 

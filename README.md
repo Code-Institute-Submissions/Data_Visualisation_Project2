@@ -24,7 +24,7 @@ Before i started this project, i built a wireframe to have a platform to build t
 
 The project has 5 parts to it and in those 5 parts it allows user participation:
 
-- I have added a select menu. Hear you can leave it as it is and have a visualisation of Developed and Developing countries (which i will refer to on this page as **Status** )collectively, or you can scroll down the select menu with a multiple amount of countries you can choose from with data output as per described on the y and x axis
+- I have added a select menu. Hear you can leave it as it is and have a visualisation of Developed and Developing countries (which i will refer to on this page as **Status**) collectively, or you can scroll down the select menu with a multiple amount of countries you can choose from with data output as per described on the y and x axis
 - The pie chart displays the categorised country status, if you press either one as its crossfiltered you will see the changes in the other visualisations (bar chart, scatter plot). Also as all the visualisation is crossfiltered if you select any country in the select menu it will display in the bar chart what status that country is categorised as.
 - The first bar chart displays life expectancy for either any country that is displayed in the select menu or colectively (status)
 - Second bar chart displays adult mortality per 1000

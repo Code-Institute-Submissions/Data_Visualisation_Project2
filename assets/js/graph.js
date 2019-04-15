@@ -123,7 +123,7 @@ function show_average_life_expectancy(ndx) {
     .x(d3.scale.ordinal())
     .xUnits(dc.units.ordinal)
     .elasticY(true)
-    .xAxisLabel("Country Classification")
+    .xAxisLabel("Country Status")
     .yAxisLabel("Life Expectancy Age")
     .yAxis().ticks(20);
 

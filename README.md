@@ -60,12 +60,11 @@ Finally these charts use D3.js, and d3.js is not mobile responsive. D3.js is des
 
 ### Browser Compatibility
 
-I tested the site to be sure that it rendered consistently and as expected in all major web browsers in desktop version. This included:
+I tested the site to be sure that it rendered consistently on 2 browsers. This included:
 
   + Ensuring all elements are responsive and that all content is legible.
-  + Site was test-rendered using desktop and mobile equivalents of:
+  + Site was test-rendered using:
       + Chrome (Versions 67 – 70)
-      + Firefox (Version 60 - 63)
       + MS Edge (Version 42.17134.1.0)
 
 ## Deployment

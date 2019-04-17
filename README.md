@@ -19,6 +19,7 @@ Objectives:
   - I want to illustrate with a scatter plot the correlation between life longeavity and the yrs of education. I could of easily used other factors like GDP and life longeavity but wanted to factor in something different but has some substance and meaning behind it. 
 
 Before i started this project, i built a wireframe to have a platform to build the site. Inline-style: 
+
 ![alt text] Screenshot (332).png The wireframe was built using free source software from Pencil.
 
 ## Features

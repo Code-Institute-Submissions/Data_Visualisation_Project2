@@ -20,7 +20,7 @@ Objectives:
 
 Before i started this project, i built a wireframe to have a platform to build the site. Inline-style: 
 
-![alt text] Screenshot (332).png The wireframe was built using free source software from Pencil.
+![alt text](https://github.com/aledgriffiths79/Data_Visualisation_Project2/blob/master/Screenshot%20(332).png "Data Visualisation wireframe") The wireframe was built using free source software from Pencil.
 
 ## Features
 

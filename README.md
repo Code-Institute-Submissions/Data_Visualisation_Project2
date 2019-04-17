@@ -73,15 +73,17 @@ I tested the site to be sure that it rendered consistently on 2 browsers. This i
 
 ## Deployment
 
-Deployment and source control was entirely done via Github. The repository can be found here:
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/aledgriffiths79/Data_Visualisation_Project2.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+The repository can be found here:
 
 Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
 
 The site has been deployed using GitHub Pages and is available to visit here:
 
 [Project Website](https://aledgriffiths79.github.io/data_visualisation_trial/)
-
-Local deployment is not required for this project.
 
 ## Credits
 

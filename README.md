@@ -79,7 +79,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 The repository can be found here:
 
-Repo: (https://github.com/aledgriffiths79/data_visualisation_trial)
+Repo: https://github.com/aledgriffiths79/data_visualisation_trial
 
 The site has been deployed using GitHub Pages and is available to visit here:
 

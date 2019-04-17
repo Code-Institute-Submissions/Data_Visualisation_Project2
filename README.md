@@ -18,9 +18,11 @@ Objectives:
   - To illustrate/quantify using another bar graph, mortality rates in the working age bracket. These could be factors like murder, health, suicide etc
   - I want to illustrate with a scatter plot the correlation between life longeavity and the yrs of education. I could of easily used other factors like GDP and life longeavity but wanted to factor in something different but has some substance and meaning behind it. 
 
-Before i started this project, i built a wireframe to have a platform to build the site. Inline-style: 
+Before i started this project, i built a wireframe to have a platform to build the site. The wireframe was built using free source software from Pencil. 
 
-![alt text](https://github.com/aledgriffiths79/Data_Visualisation_Project2/blob/master/Screenshot%20(332).png "Data Visualisation wireframe") The wireframe was built using free source software from Pencil.
+Inline-style: 
+
+![alt text](https://github.com/aledgriffiths79/Data_Visualisation_Project2/blob/master/Screenshot%20(332).png "Data Visualisation wireframe") 
 
 ## Features
 

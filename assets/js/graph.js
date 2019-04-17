@@ -65,17 +65,7 @@ function show_status_balance(ndx) {
     .innerRadius(60)
     .radius(150)
     .transitionDuration(750)
-  // .attr("fill", function (d) {
-  //          if (d == "Developed") {
-  //              return "purple";
-  //          } else if (d == "Developing") {
-  //              return "black";
-  //          } else {
-  //              return "red"; // misc. to test if none above work
-  //          }
-  //      });
 
-  // !!!! IMPORTANT -  why doesnt the above code work?
 }
 
 // Bar Graph

@@ -79,15 +79,15 @@ I tested the site to be sure that it rendered consistently on 2 browsers. This i
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting <code> git clone https://github.com/aledgriffiths79/Data_Visualisation_Project2.git </code> into your terminal. To cut ties with this GitHub repository, type <code> git remote rm origin </code> into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting ```console git clone https://github.com/aledgriffiths79/Data_Visualisation_Project2.git ``` into your terminal. To cut ties with this GitHub repository, type <code> git remote rm origin </code> into the terminal.
 
 The repository can be found here:
 
-Repo: https://github.com/aledgriffiths79/data_visualisation_trial
+Repo: https://github.com/aledgriffiths79/Data_Visualisation_Project2
 
 The site has been deployed using GitHub Pages and is available to visit here:
 
-[Project Website](https://aledgriffiths79.github.io/Data_Visualisation_Project2)
+[Project Website](https://aledgriffiths79.github.io/Data_Visualisation_Project2/)
 
 ## Credits
 

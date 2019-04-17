@@ -55,7 +55,11 @@ I may add a line graph in future to display the correlation if any on Total Expe
 
 ## Testing
 
-For testing, i looked into using jasmine, however jasmine is not used so frequently compared to manual testing for d3 data visualisation. Therefore i find a simple approach the most effective, and that is to visually see the differences when i click on the dropdown menu and go through all the countries listed and see the changes in the bar graphs, pie chart and scatter plot. I then checked when i refresh the page that all the data goes back to represent the Statuses collectively. I also cross referenced what was displayed on the site to values in the data file.
+For testing, i looked into using jasmine, however jasmine is not used so frequently compared to manual testing for d3 data visualisation. Therefore i find a simple approach the most effective, and that is to visually see the differences when i click on the dropdown menu and go through all the countries listed and see the changes in the bar graphs, pie chart and scatter plot. I then checked when i refresh the page that all the data goes back to represent the Statuses collectively. I also cross referenced what was displayed on the site to values in the data file. For example
+
+Test 1: 
+  + scroll to Japan
+  + 
 
 In the testing process i did come up with a bug. When i scroll through the dropdown menu i randomly pick a country, and the pie chart, bar graphs and scatter plot work great but after selecting a few countries the pie chart displays the color black on "Developing" countries and stays that color for every Developing country thereafter. Whereas when you pick a "Developed" country it does represent the correct color. I then looked at my graph.js file and there is no mention in the code of color black. I will ask my mentor for advice.
 On Microsoft Edge browser i have the same issue with the pie chart but the color of the "Developing" status is white. And the Developing status dots color on the Scatter Plot displays black. Everything else works.
@@ -79,7 +83,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 The repository can be found here:
 
-Repo: https://github.com/aledgriffiths79/data_visualisation_trial
+Repo: https://github.com/aledgriffiths79/Data_Visualisation_Project2
 
 The site has been deployed using GitHub Pages and is available to visit here:
 

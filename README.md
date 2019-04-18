@@ -20,7 +20,6 @@ Objectives:
 
 Before i started this project, i built a wireframe to have a platform to build the site. The wireframe was built using free source software from Pencil. 
  
-
 ![alt text](https://github.com/aledgriffiths79/Data_Visualisation_Project2/blob/master/Screenshot%20(332).png "Data Visualisation wireframe") 
 
 ## Features
@@ -88,6 +87,16 @@ I tested the site to be sure that it rendered consistently on 2 browsers. This i
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting ``` git clone https://github.com/aledgriffiths79/Data_Visualisation_Project2.git ``` into your terminal. To cut ties with this GitHub repository, type <code> git remote rm origin </code> into the terminal.
+
+Now, i will go through step by step the phases to deploying my project to the world wide web:
+
+Step 1: I went to the settings tab of my repo, scrolled down to ```GitHub Pages```
+Step 2: Under ```Source``` is a scrolldown box titled `None`. Click it and you will have a select source.
+Step 3: Click ```master branch```
+Step 4: It will then automatically take you to the top of the page where in a light color blue block section it says ```Github Pages source saved```
+Step 5: You then scroll down to ```GitHub Pages``` and it will state ```Your site is ready to be published at "https://username.github.io/gihub-projectname/." ```
+Step 4: Click on the url above and it will then be published onto the world wide web
+Step 5: If you then go back to your github repository settings and scroll down to ```GitHub Pages``` you will see in a light green block ```"Your site is published at https://etc"```
 
 The repository can be found here:
 

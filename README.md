@@ -19,8 +19,7 @@ Objectives:
   - I want to illustrate with a scatter plot the correlation between life longeavity and the yrs of education. I could of easily used other factors like GDP and life longeavity but wanted to factor in something different but has some substance and meaning behind it. 
 
 Before i started this project, i built a wireframe to have a platform to build the site. The wireframe was built using free source software from Pencil. 
-
-Inline-style: 
+ 
 
 ![alt text](https://github.com/aledgriffiths79/Data_Visualisation_Project2/blob/master/Screenshot%20(332).png "Data Visualisation wireframe") 
 
@@ -57,11 +56,11 @@ I may add a line graph in future to display the correlation if any on Total Expe
 
 For testing, i looked into using jasmine, however jasmine is not used so frequently compared to manual testing for d3 data visualisation. Therefore i find a simple approach the most effective, and that is to visually see the differences when i click on the dropdown menu and go through all the countries listed and see the changes in the bar graphs, pie chart and scatter plot. I then checked when i refresh the page that all the data goes back to represent the Statuses collectively. I also cross referenced what was displayed on the site to values in the data file. For example
 
-Test 1: 
+Test example: 
   + Scroll to Japan
   + Pie chart states its a Developed Country
   + Back onto my data file, check the data matches for Japan
-  + Life expectancy figure on the bar graph = 83 (exact number is            displayed when you hover over the bar graph)
+  + Life expectancy figure on the bar graph = 83 (exact number is displayed when you        hover over the bar graph)
   + Back onto my data file, check the data matches for Japan
   + Adult mortality (per thousand) is 55 on the bar graph
   + Back onto my data file, check the data matches for Japan

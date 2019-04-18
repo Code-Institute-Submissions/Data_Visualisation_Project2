@@ -90,19 +90,19 @@ To run locally, you can clone this repository directly into the editor of your c
 
 Now, i will go through step by step the phases to deploying my project to the world wide web:
 
-Step 1:   I went to the settings tab of my repo, scrolled down to ```GitHub Pages```
+Step 1: I went to the settings tab of my repo, scrolled down to ```GitHub Pages```
 
-Step 2:  Under ```Source``` is a scrolldown box titled `None`. Click it and you will have a select source.
+Step 2: Under ```Source``` is a scrolldown box titled `None`. Click it and you will have a select source.
 
-Step 3:  Click ```master branch```
+Step 3: Click ```master branch```
 
-Step 4:   It will then automatically take you to the top of the page where in a light color blue block section it says ```Github Pages source saved```
+Step 4: It will then automatically take you to the top of the page where in a light color blue block section it says ```Github Pages source saved```
 
-Step 5:   You then scroll down to ```GitHub Pages``` and it will state ```Your site is ready to be published at "https://username.github.io/gihub-projectname/" ```
+Step 5: You then scroll down to ```GitHub Pages``` and it will state ```Your site is ready to be published at "https://username.github.io/gihub-projectname/" ```
 
-Step 6:   Click on the url and it will then be published onto the world wide web
+Step 6: Click on the url and it will then be published onto the world wide web
 
-Step 7:   If you then go back to your github repository settings and scroll down to ```GitHub Pages``` you will see in a light green block ```"Your site is published at https://etc"```
+Step 7: If you then go back to your github repository settings and scroll down to ```GitHub Pages``` you will see in a light green block ```"Your site is published at https://etc"```
 
 The repository can be found here:
 

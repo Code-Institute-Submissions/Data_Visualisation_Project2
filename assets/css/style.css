@@ -56,15 +56,16 @@ text.y-axis-label {
 }
 
 .navbar-brand {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  height: 30px;
 }
 
-.color_block {
+.copyright {
   background-color: rgb(21, 140, 186);
   width: 100%;
-  height: 60px;
-  font-size: 25px;
+  height: 30px;
+  font-size: 20px;
   color: white;
   text-align: left;
 }

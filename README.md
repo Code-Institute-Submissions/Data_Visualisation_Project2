@@ -68,10 +68,10 @@ Test example:
 
 and so forth. I tested 5 Developed and 5 Developing countries. All data values was a success.
 
-In the testing process i did come up with a bug. When i scroll through the dropdown menu i randomly pick a country, and the pie chart, bar graphs and scatter plot work great but after selecting a few countries the pie chart displays the color black on "Developing" countries and stays that color for every Developing country thereafter. Whereas when you pick a "Developed" country it does represent the correct color. I then looked at my graph.js file and there is no mention in the code of color black. I will ask my mentor for advice.
+In the testing process i did come up with a bug. When i scroll through the dropdown menu i randomly pick a country, and the pie chart, bar graphs and scatter plot work great but after selecting a few countries the pie chart displays the color black on "Developing" countries and stays that color for every Developing country thereafter. Whereas when you pick a "Developed" country it does represent the correct color. I then looked at my graph.js file and there is no mention in the code of color black. I asked my mentor and he said he could not find anything in my code that could cause the issue. And concluded that it was a d3 library issue.
 On Microsoft Edge browser i have the same issue with the pie chart but the color of the "Developing" status is white. And the Developing status dots color on the Scatter Plot displays black. Everything else works.
 
-Finally these charts use D3.js, and d3.js is not mobile responsive. D3.js is designed for desktop or large-screen viewing.
+Finally these charts use D3.js, and d3.js which are not designed to be mobile responsive. D3.js is designed for desktop or large-screen viewing. However i have tried to make it as mobile friendly as i could as you can see in the css file and using the bootstrap grid system in my index.html file.
 
 ### Browser Compatibility
 

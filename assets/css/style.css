@@ -1,16 +1,19 @@
-#country-selector{
-  display: inline;
+#country-selector {
+  /* display: inline; */
   margin-left: 15px;
+  margin-top: 7px;
+  font-size: 18px;
+  margin-right: 15px;
 }
 
-.jumbotron{
+.jumbotron {
   margin-top: 30px;
   /*background-color: #f8f5f0;*/
   background-color: #158CBA;
   /*background-color: #ecf0f1;*/
 }
 
-#status_balance_pie{
+#status_balance_pie {
   height: 350px;
 }
 
@@ -25,6 +28,7 @@
     fill: #07c98fb0;
     stroke: rgb(204, 204, 204);
 }
+
 .display-4 {
   font-weight: 400;
   color: white;
@@ -38,6 +42,16 @@ a:not([href]):not([tabindex]) {
 .lead {
   color: white;
   font-size: 1.69375rem;
+}
+
+.selector_title {
+  font-size: 25px;
+  color: white;
+  padding-left: 15px;
+}
+
+.dc-select-menu {
+  width: 100%;
 }
 
 body {
@@ -61,6 +75,18 @@ text.y-axis-label {
   height: 30px;
 }
 
+/* MOBILE PHONE */
+@media only screen and (max-width: 420px) {
+  .navbar-brand {
+    font-size: 17px;
+}}
+
+/* Iphone 5/SE */
+@media only screen and (max-width: 325px) {
+  .navbar-brand {
+    font-size: 15px;
+}}
+
 .copyright {
   background-color: rgb(21, 140, 186);
   width: 100%;
@@ -69,14 +95,3 @@ text.y-axis-label {
   color: white;
   text-align: left;
 }
-
-
-
-
-
-
-
-
-
-
-
